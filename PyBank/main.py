@@ -25,8 +25,6 @@ with open (budget_data_path, newline="") as csvfile:
 
     for row in csv_reader:
 
-        current_row = int(row[1])
-
         #Find the total # of months
         Total_number_of_months = Total_number_of_months + 1
         #Find the total amount
